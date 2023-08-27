@@ -1,6 +1,7 @@
 /*!
  * Pacman - HTML5 Game
  * https://passer-by.com/pacman/
+ * https://cuteplushiesofficial.com/
  *
  * Copyright (c) 2016-present, HaoLe Zheng
  * Released under the MIT License.
@@ -579,7 +580,7 @@
 			x:game.width-10,
 			y:game.height-5,
 			draw:function(context){
-				var text = '© passer-by.com';
+				var text = '© cuteplushiesofficial.com';
 				context.font = '12px/20px PressStart2P';
 				context.textAlign = 'left';
 				context.textBaseline = 'top';
@@ -590,7 +591,7 @@
 				context.fillText(text,this.x,this.y);
 			}
 		}).bind('click',function(){
-			window.open('https://passer-by.com');
+			window.open('https://cuteplushiesofficial.com');
 		});
 		//事件绑定
 		stage.bind('keydown',function(e){
